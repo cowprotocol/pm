@@ -47,3 +47,9 @@
 - name: release-notes
   description: Issue/PR needs to be evaluated for inclusion in release notes highlights or upgrade instructions
   color: fb3c99
+
+
+# Epics
+- name: E:2023-composable-cow
+  description: https://github.com/cowprotocol/pm/issues/1
+  color: FEF445
