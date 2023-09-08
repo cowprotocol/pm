@@ -1,0 +1,49 @@
+# Generic labels
+- name: bug
+  description: Something isn't working
+  color: d73a4a
+- name: documentation
+  description: Improvements or additions to documentation
+  color: 0075ca
+- name: duplicate
+  description: This issue or pull request already exists
+  color: cfd3d7
+- name: enhancement
+  description: New feature or request
+  color: a2eeef
+- name: good first issue
+  description: Good for newcomers
+  color: 7057ff
+- name: help wanted
+  description: Extra attention is needed
+  color: 008672
+- name: invalid
+  description: This doesn't seem right
+  color: e4e669
+- name: question
+  description: Further information is requested
+  color: d876e3
+- name: wontfix
+  description: This will not be worked on
+  color: ffffff
+- name: blocked
+  description: This issue is blocked by some other work
+  color: e0af74
+- name: critical
+  description: This issue needs critical attention
+  color: B60205
+- name: infra
+  description: Infra, devops, CI and related tasks
+  color: 277196
+- name: milestone
+  description: Tracks a subteam milestone
+  color: 1CC0B0
+- name: epic
+  description: Tracks a yearly team epic (only for cowprotocol/pm repo)
+  color: 07544B
+- name: test
+  description: Issue related to the test suite with no expected consequence to production code
+  color: 277196
+- name: release-notes
+  description: Issue/PR needs to be evaluated for inclusion in release notes highlights or upgrade instructions
+  color: fb3c99

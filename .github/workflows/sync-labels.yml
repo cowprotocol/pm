@@ -1,0 +1,23 @@
+name: Sync labels
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - .github/labels.yml
+      - .github/workflows/sync-labels.yml
+jobs:
+  sync-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: micnncim/action-label-syncer@v1
+        with:
+          manifest: .github/labels.yml
+          repository: |
+            cowprotocol/pm
+            cowprotocol/composable-cow
+            cowprotocol/composable-dao
+            cowprotocol/clogs
+          token: ${{ secrets.SYNC_LABELS }}
+          prune: true
