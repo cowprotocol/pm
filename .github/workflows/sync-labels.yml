@@ -18,6 +18,8 @@ jobs:
             cowprotocol/pm
             cowprotocol/composable-cow
             cowprotocol/composable-dao
+            cowprotocol/tenderly-watch-tower
             cowprotocol/clogs
+            cowprotocol/docs
           token: ${{ secrets.SYNC_LABELS }}
           prune: true
