@@ -6,6 +6,7 @@ on:
 
 jobs:
   add-to-project:
+    if: github.repository_owner == 'cowprotocol'
     name: Add issue to project
     runs-on: ubuntu-latest
     steps:
