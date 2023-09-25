@@ -47,9 +47,22 @@
 - name: release-notes
   description: Issue/PR needs to be evaluated for inclusion in release notes highlights or upgrade instructions
   color: fb3c99
+- name: oncall
+  description: Issue/PR for consideration during oncall rotation
+  color: ffbf00
 
 
-# Epics
-- name: E:2023-composable-cow
+## [Milestone] External Contributor Friendly
+- name: "E:1.1: Conditional Order Templates"
   description: https://github.com/cowprotocol/pm/issues/1
   color: FEF445
+- name: "E:1.2: Watch Tower Service"
+  description: https://github.com/cowprotocol/pm/issues/8
+  color: 0052cc
+- name: "E:1.3: Merkle Tree Support"
+  description: https://github.com/cowprotocol/pm/issues/9
+  color: 6D5261
+- name: "E:2.1: Documentation and Tutorials"
+  description: https://github.com/cowprotocol/pm/issues/10
+  color: 24B684
+
