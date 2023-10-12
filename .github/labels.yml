@@ -66,3 +66,10 @@
   description: https://github.com/cowprotocol/pm/issues/10
   color: 24B684
 
+# [Milestone] Complexity Reduction
+- name: "E:3.1 Driver Colocation"
+  description: See https://github.com/cowprotocol/pm/issues/14 for details
+  color: fef2c0
+- name: "E:3.2 Verified Quotes"
+  description: See https://github.com/cowprotocol/pm/issues/15 for details
+  color: bfd4f2
