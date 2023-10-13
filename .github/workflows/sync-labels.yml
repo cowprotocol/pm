@@ -21,6 +21,7 @@ jobs:
             cowprotocol/tenderly-watch-tower
             cowprotocol/clogs
             cowprotocol/docs
+            cowprotocol/docs-v2
             cowprotocol/services
           token: ${{ secrets.SYNC_LABELS }}
           prune: true
