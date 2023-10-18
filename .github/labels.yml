@@ -73,3 +73,6 @@
 - name: "E:3.2 Verified Quotes"
   description: See https://github.com/cowprotocol/pm/issues/15 for details
   color: bfd4f2
+- name: "E:3.3 Factor out ETHFlow"
+  description: See https://github.com/cowprotocol/pm/issues/20 for details
+  color: 2a2f52
