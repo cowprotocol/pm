@@ -26,5 +26,6 @@ jobs:
             cowprotocol/infrastructure
             cowprotocol/autodeploy-action
             cowprotocol/dappnodepackage-cow-watch-tower
+            cowprotocol/research
           token: ${{ secrets.SYNC_LABELS }}
           prune: true
