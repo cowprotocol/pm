@@ -79,3 +79,8 @@
 - name: "E:3.4 Self-documenting Rest APIs"
   description: See https://github.com/cowprotocol/pm/issues/23 for details
   color: 95d888
+
+# [Milestone] Sustainability
+- name: "E:4.1 Quote adjustment for solvers"
+  description: See https://github.com/cowprotocol/pm/issues/26 for details
+  color: 54d412
