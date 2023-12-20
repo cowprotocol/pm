@@ -29,7 +29,7 @@ Monthly reporting is now handled by the <insert> insight team.
 | Name            | Number of                               | Timeframe                              | Team Scope                                   | Owner                       | Description                                                                 |
 |-----------------|-----------------------------------------|----------------------------------------|----------------------------------------------|-----------------------------|-----------------------------------------------------------------------------|
 | Priority Track  | 3-5                                     | Set yearly                             | Whole Team                                   | CTO                   | Focus set for the year, must be aligned with Logos Collective's priorities. |
-| (Key) Milestone | 1-3 per year                            | Set yearly-ish                         | Most subteams                                | CTO                   | Key achievements for the Waku project, historical milestones.               |
+| (Key) Milestone | 1-3 per year                            | Set yearly-ish                         | Most subteams                                | CTO                   | Key achievements for the CoW Protocol project, historical milestones.               |
 | Epic            | Several per milestone                   | Set for a milestone, delivered monthly | Several subteams or external team (e.g. DST) | Team Member (likely a lead) | Chunk of a _Milestone_ across all clients.                                  |
 | Task            | Many per Epic                           | Set monthly-ish, delivered weekly      | One subteam or individual                    | Team Member                 | May be one or several piece of work, client specific.                       |  
 
@@ -71,32 +71,6 @@ Which means, in terms of _navigation_:
 - Work for a Milestone is described in the related GitHub issue and tracked in the GitHub milestone.
 - In the GitHub milestone, we have a list of _Epics_ to be achieved, the _Epics_ are being closed as the work is done across all clients.
 - To look at remaining work for an _Epic_, one need to look at all issues/PRs (_Tasks_) with the corresponding _Epic_ label (`E:...`)
-
-### Reporting
-
-**Monthly**:
-
-Handled by insight team
-
-**Weekly**: Report progress on each **active** _Epic_ or _Task_ per subteam.
-
-Every Friday, all team members must add a comment to the GH **issues** (not pull request) they own and worked on the past week or planned to work on next week.
-
-If work is done on several _Tasks_ related to the same _Epic_, team member is free to do their weekly update in common parent issue.
-
-The comment must have the following MarkDown format:
-
-```md
-**Weekly Update**
-
-- _achieved_: what was achieved this week; must remain on one line.
-- _next_: what will be worked on next week; must also remain on one line.
-- _blocker_: any blocking items. Do not include the line if no blocker. 
-```
-
-**Omit the lines which are not relevant.**
-
-On Monday, project lead or responsible person for report can run the [milestone-update](https://github.com/fryorcraken/milestone-update) script to generate a report and post it in CoW Slack.
 
 ## Milestones
 
