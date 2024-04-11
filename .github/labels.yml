@@ -124,3 +124,6 @@
 - name: "E:6.1 One auction per block"
   description: See https://github.com/cowprotocol/pm/issues/35 for details
   color: f9d0c4
+
+# [Milestone] Solver Driver Colocation
+- name: "E:7.1 Ext. solvers operating driver"
