@@ -23,7 +23,6 @@ jobs:
             cowprotocol/infrastructure
             cowprotocol/autodeploy-action
             cowprotocol/dappnodepackage-cow-watch-tower
-            cowprotocol/research
             cowprotocol/snapshot-settings
             cowprotocol/clogs
             cowprotocol/composable-cow
