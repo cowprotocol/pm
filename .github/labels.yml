@@ -129,3 +129,8 @@
 - name: "E:7.1 Ext. solvers operating driver"
   description: See https://github.com/cowprotocol/pm/issues/57 for details
   color: 1D334A
+
+# [Milestone] Arbitrum One Deployment
+- name: "E:8.1 Arbitrum One Deployment"
+  description: See https://github.com/cowprotocol/pm/issues/63 for details
+  color: F0CF3C
