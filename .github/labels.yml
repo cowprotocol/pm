@@ -137,3 +137,8 @@
 - name: "E:8.1 Arbitrum One Deployment"
   description: See https://github.com/cowprotocol/pm/issues/63 for details
   color: F0CF3C
+
+# [Milestone] Auditable accounting on all chains
+- name: "E:9.1 Streamline mainnet payouts process"
+  description: See https://github.com/cowprotocol/pm/issues/80 for details
+  color: B0BAE7
