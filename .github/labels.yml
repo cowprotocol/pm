@@ -1,6 +1,5 @@
 # Generic labels
-- name: bug
-  description: Something isn't working
+- name: bug description: Something isn't working
   color: d73a4a
 - name: documentation
   description: Improvements or additions to documentation
@@ -142,3 +141,8 @@
 - name: "E:9.1 Streamline mainnet payouts process"
   description: See https://github.com/cowprotocol/pm/issues/80 for details
   color: B0BAE7
+
+# [Milestone] Auditable accounting on all chains
+- name: "E:10.1 Overhaul bad token handling"
+  description: See https://github.com/cowprotocol/pm/issues/82 for details
+  color: 0EE38D 
