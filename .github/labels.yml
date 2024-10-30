@@ -1,5 +1,6 @@
 # Generic labels
-- name: bug description: Something isn't working
+- name: bug
+  description: Something isn't working
   color: d73a4a
 - name: documentation
   description: Improvements or additions to documentation
