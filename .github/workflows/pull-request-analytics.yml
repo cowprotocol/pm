@@ -23,8 +23,8 @@ jobs:
           CORE_HOURS_START: "9:00"
           CORE_HOURS_END: "19:00"
           TIMEZONE: "Europe/Berlin"
-          REPORT_DATE_START: ${{ inputs.report_date_start }}
-          REPORT_DATE_END: ${{ inputs.report_date_end }}
+          # REPORT_DATE_START: ${{ inputs.report_date_start }}
+          # REPORT_DATE_END: ${{ inputs.report_date_end }}
           USE_CHARTS: true
           SHOW_CORRELATION_GRAPHS: true
           SHOW_ACTIVITY_TIME_GRAPHS: true
