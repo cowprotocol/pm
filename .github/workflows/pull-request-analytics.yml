@@ -1,0 +1,27 @@
+name: "PR Analytics"
+on:
+  workflow_dispatch:
+    inputs:
+      report_date_start:
+        description: "Report date start (d/MM/yyyy)"
+      report_date_end:
+        description: "Report date end (d/MM/yyyy)"
+jobs:
+  create-report:
+    name: "Create report"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Run script for analytics"
+        uses: AlexSim93/pull-request-analytics-action@v4
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # In the case of a personal access token, it needs to be added to the repository's secrets and used in this field.
+          CORE_HOURS_START: "9:00"
+          CORE_HOURS_END: "19:00"
+          TIMEZONE: "Europe/Berlin"
+          REPORT_DATE_START: ${{ inputs.report_date_start }}
+          REPORT_DATE_END: ${{ inputs.report_date_end }}
+          USE_CHARTS: true
+          SHOW_CORRELATION_GRAPHS: true
+          SHOW_ACTIVITY_TIME_GRAPHS: true
+          GITHUB_OWNERS_REPOS: "cowprotocol/services, cowprotocol/infrastructure"
+          EXECUTION_OUTCOME: "markdown"
