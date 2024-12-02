@@ -28,4 +28,6 @@ jobs:
           USE_CHARTS: true
           SHOW_CORRELATION_GRAPHS: true
           SHOW_ACTIVITY_TIME_GRAPHS: true
-          EXECUTION_OUTCOME: "markdown"
+          EXECUTION_OUTCOME: "markdown, new-issue"
+          REPORT_DATE_START: 01/01/2024
+          REPORT_DATE_END: 01/12/2024
