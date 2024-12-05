@@ -58,7 +58,7 @@
   color: 40F9F0
 - name: "track:maintenance"
   description: maintenance track
-  description: 218bff
+  color: 218bff
 
 ## Team labels
 - name: "team:backend"
