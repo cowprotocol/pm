@@ -32,5 +32,7 @@ jobs:
             cowprotocol/hooks-trampoline
             cowprotocol/loot
             cowprotocol/token
+            cowprotocol/token-imbalances
+            cowprotocol/solver-rewards
           token: ${{ secrets.SYNC_LABELS }}
           prune: true
