@@ -15,7 +15,6 @@ jobs:
         with:
           manifest: .github/labels.yml
           repository: |
-            cowprotocol/pm
             cowprotocol/tenderly-watch-tower
             cowprotocol/docs
             cowprotocol/docs-v2
