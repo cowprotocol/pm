@@ -57,6 +57,7 @@
   description: services maintenance track (Protocol)
   color: 40F9F0
 - name: "track:maintenance"
+  description: maintenance track
   description: 218bff
 
 ## Team labels
