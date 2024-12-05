@@ -34,5 +34,6 @@ jobs:
             cowprotocol/token
             cowprotocol/token-imbalances
             cowprotocol/solver-rewards
+            cowprotocol/prefect
           token: ${{ secrets.SYNC_LABELS }}
           prune: true
