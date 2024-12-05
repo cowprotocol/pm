@@ -11,10 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: brpaz/action-label-syncer@master
+      - uses: micnncim/action-label-syncer@v1.3.0
         with:
           manifest: .github/labels.yml
           repository: |
+            cowprotocol/pm
             cowprotocol/tenderly-watch-tower
             cowprotocol/docs
             cowprotocol/docs-v2
