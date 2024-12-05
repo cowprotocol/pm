@@ -50,29 +50,29 @@
 - name: oncall
   description: Issue/PR for consideration during oncall rotation
   color: ffbf00
-- name: track:frontend-maintenance
+- name: "track:frontend-maintenance"
   description: frontend maintenance track
   color: 6BEB00
-- name: track:services-maintenance
+- name: "track:services-maintenance"
   description: services maintenance track (Protocol)
   color: 40F9F0
-- name: track:maintenance
+- name: "track:maintenance"
   description: 218bff
 
 ## Team labels
-- name: team:backend
+- name: "team:backend"
   description: Issues / PRs scoped to backend
   color: 7779d0
-- name: team:contracts
+- name: "team:contracts"
   description: Issues / PRs scoped to contracts
   color: 591248
-- name: team:frontend
+- name: "team:frontend"
   description: Issues / PRs scoped to frontend
   color: bfdadc
-- name: team:marketing
+- name: "team:marketing"
   description: Issues / PRs scoped to marketing
   color: 5319e7
-- name: team:solvers
+- name: "team:solvers"
   description: Issues / PRs scoped to solvers
   color: 4da6ab
 
@@ -124,7 +124,7 @@
 - name: "E:6.1 One auction per block"
   description: See https://github.com/cowprotocol/pm/issues/35 for details
   color: f9d0c4
-- name: "E:6.2 Time to Happy Moo" 
+- name: "E:6.2 Time to Happy Moo"
   description: See https://github.com/cowprotocol/pm/issues/77 for details
   color: FCBA03
 
@@ -146,4 +146,4 @@
 # [Milestone] Auditable accounting on all chains
 - name: "E:10.1 Overhaul bad token handling"
   description: See https://github.com/cowprotocol/pm/issues/82 for details
-  color: 0EE38D 
+  color: 0EE38D
