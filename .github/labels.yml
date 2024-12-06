@@ -41,6 +41,9 @@
 - name: epic
   description: Tracks a yearly team epic (only for cowprotocol/pm repo)
   color: 07544B
+- name: hotfix
+  description: Labels PRs that should be applied into production right away
+  color: A30000
 - name: test
   description: Issue related to the test suite with no expected consequence to production code
   color: 277196
