@@ -36,5 +36,7 @@ jobs:
             cowprotocol/solver-rewards
             cowprotocol/prefect
             cowprotocol/dune-queries
+            cowprotocol/circuit-breaker
+            cowprotocol/tenderly-alerts
           token: ${{ secrets.SYNC_LABELS }}
           prune: true
