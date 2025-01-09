@@ -62,6 +62,9 @@
 - name: "track:maintenance"
   description: maintenance track
   color: 218bff
+- name: "track:post-mortem"
+  description: post mortem follow up tasks
+  color: f50707
 
 ## Team labels
 - name: "team:backend"
