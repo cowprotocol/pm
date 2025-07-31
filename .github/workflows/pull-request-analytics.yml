@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Run script for analytics"
-        uses: AlexSim93/pull-request-analytics-action@v4
+        uses: AlexSim93/pull-request-analytics-action@01d9a216d16b2eee2ce048c748f3acaac8882990 # v4.8.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO_FOR_ISSUE: pm
